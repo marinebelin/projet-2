@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://localhost/index.html">
+
+  <url>
+	  <loc>http://localhost/index.html/</loc>
+	  <lastmod>2017-03-17</lastmod>
+	  <changefreq>weekly</changefreq>
+	  <priority>1</priority>
+  </url> 
+
+  <url>
+	  <loc>http://localhost/index.html/#services</loc>
+	  <lastmod>2017-03-17</lastmod>
+	  <changefreq>weekly</changefreq>
+	  <priority>1</priority>
+  </url> 
+
+  <url>
+	  <loc>http://localhost/index.html/#features</loc>
+	  <lastmod>2017-03-17</lastmod>
+	  <changefreq>weekly</changefreq>
+	  <priority>1</priority>
+  </url> 
+
+  <url>
+	  <loc>http://localhost/index.html/#portfolio</loc>
+	  <lastmod>2017-03-17</lastmod>
+	  <changefreq>weekly</changefreq>
+	  <priority>1</priority>
+  </url> 
+
+  <url>
+	  <loc>http://localhost/index.html/#contact</loc>
+	  <lastmod>2017-03-17</lastmod>
+	  <changefreq>weekly</changefreq>
+	  <priority>1</priority>
+  </url> 
+
+	</urlset>
