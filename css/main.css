@@ -1,0 +1,580 @@
+body{
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.content{
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.line-b {
+    border-bottom: 2px solid white;
+}
+
+.line-g {
+    border-bottom: 2px solid #353f47;
+}
+
+
+#b-header{
+	background: url(../images/header.jpg) no-repeat;
+    background-position: center;
+	display: flex;
+		flex-flow: column wrap;
+		justify-content: space-around;
+		align-items: space-around;
+	height: 800px;
+	width: 100%;
+   
+}
+
+#b-nav{
+	background-color: rgba(53, 63, 71, 0.85);
+	height: 150px;
+	width: 100%;
+	color: white;
+	line-height: 150px;
+	font-weight: bold;
+	position: fixed;
+	top: 0px;
+    left: 0;
+    top: 0;
+    z-index: 10;
+}
+
+#b-nav>.content{
+	display: flex;
+	flex-flow: row wrap;
+    height: 150px;
+}
+
+
+#logo{
+	font-size: 1.87em;
+	flex: 1 50%;
+}
+	#c-logo{
+		color: #4bcaff;
+	}
+	.active{
+	color: #4bcaff;
+	border: 2px solid #4bcaff;
+	}
+
+
+nav>ul{
+	flex: 1 50%;
+	display: flex;
+	flex: row wrap;
+	justify-content: center;
+	align-items: center;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+
+
+	a{
+		text-decoration: none;
+		color: white;
+		padding: 8px 20px;
+		font-size: 0.8em;
+	}
+
+	section p{
+		margin: 0;
+        font-weight: 400;
+        font-size: 0.8em;
+        line-height: 1.8em;
+	}
+
+
+h2{
+	text-align: center;
+	text-transform: uppercase;	
+	margin:0px;
+	margin-bottom: 5px;
+	line-height: 2.5em;
+}
+
+mark{
+	color: white;
+	background-color: rgba(53, 63, 71, 0.85);
+	font-weight: 300;
+	padding: 3px 15px;
+	font-size: 1.5em;
+}
+
+.title{
+	width: 50%;
+    height: 650px;
+    margin-top: 150px;
+	margin-left: auto;
+	margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/*----general-----*/
+h3{
+    font-size: 1.6em;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+/*----whoisjohndoe---*/
+
+#b-pres{
+    background: url(../images/b-pres.jpg) no-repeat;
+    background-position: center;
+    padding: 60px 0px;
+    height: 490px;
+    box-sizing: border-box;
+    width: 100%;
+    color: white;
+}
+
+#b-pres>.content{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+#b-pres>.content>h3{
+    flex: 1 100%;
+}
+
+#b-pres>.content>div{
+    width: 48%;  
+}
+
+#b-pres>.content>div>nav>ul{
+    justify-content: flex-start
+}
+
+#b-pres li{
+    margin: 25px 10px;
+    border: 2px solid white;
+}
+
+.social{
+    padding:0;
+    margin: 0;
+    height:100%;
+    width: 100%;
+}
+.social:hover{
+   color: #4bcaff;
+}
+
+#b-pres .fa{
+    font-size: 1.8em;
+    padding: 15px;
+}
+
+/*----contact------*/
+
+#b-contact{
+    background: url(../images/b-contact.jpg) no-repeat;
+    background-position: center;
+    padding: 60px 0px;
+    height: 812px;
+    box-sizing: border-box;
+    width: 100%;
+    color: white;
+}
+
+.flex{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+
+.flex>div{
+     width: 48%;
+}
+    
+
+label {
+    display: block;
+    text-transform: uppercase;
+    font-size: 0.7em;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+input[type="text"]{
+    box-sizing: border-box;
+    width: 80%;
+    min-height: 45px;
+    background-color: transparent;
+    border: 1px solid white;
+    margin-bottom: 40px;
+    padding: 20px;
+    color: white;
+}
+
+textarea[type="text"]{
+    width: 100%;
+    box-sizing: border-box;
+    min-height: 216px;
+    background-color: transparent;
+    border: 1px solid white;
+    margin-bottom: 40px;
+    padding: 20px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+#text-contact{
+    padding-top: 13px; 
+}
+
+#text-contact p:nth-child(1){
+    padding-bottom: 27px;
+}
+
+#logo > p {
+    font-weight:700; /* Graisse logo */
+    margin:0;
+}
+
+#b-nav > .content > nav > ul > li > a:hover {
+    color: #4bcaff;
+}
+
+.active:hover {
+    background-color: white;
+    border:0;
+    border: 2px solid white;
+}
+/* --------- SERVICES ---------- */
+
+.b-bleu {
+    background-color: #4bcaff;
+    padding: 60px 0px;
+    color: white;
+}
+
+#services h3 {
+    flex: 1 100%;
+}
+
+.b-bleu > .content {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.b-bleu > .content > .flex {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+#services > .content > .flex > div {
+    width: 23%;
+    height: 100%;
+}
+
+#services > .content > .flex > div > p {
+    font-size: 14px;
+    line-height: 1.5em;
+}
+
+h4 {
+    margin: 10px 0px;
+    font-size: 1.2em;
+}
+
+i.coffee {
+    background: url(../images/img-sprite.png)no-repeat -3px -7px;
+    width: 50px;
+    height: 60px;
+    display: inline-block;
+}
+
+i.instant {
+    background: url(../images/img-sprite.png)no-repeat -75px -7px;
+    width: 50px;
+    height: 60px;
+    display: inline-block;
+}
+
+i.serious {
+    background: url(../images/img-sprite.png)no-repeat -158px -7px;
+    width: 50px;
+    height: 60px;
+    display: inline-block;
+}
+
+i.frame {
+    background: url(../images/img-sprite.png)no-repeat -245px -7px;
+    width: 50px;
+    height: 60px;
+    display: inline-block;
+}
+
+/* ----------------------------- */
+
+/* ---------- TWITTER ---------- */
+
+ #twitter h3 {
+    width: 90%;
+}
+
+#twitter > .content > .icon > i {
+    width:10%;
+    font-size: 1.8em;
+}
+
+#twitter > .content > p {
+    flex: 1 100%;
+    font-weight:300;
+    font-size: 1.2em;
+}
+
+#twitter > .content > p > a {
+    flex: 1 100%;
+    font-weight:600;
+    margin:5px 0px 0px 0px;
+    padding:0;
+    font-size: 0.9em;
+}
+
+/* ----------------------------- */
+
+/* ---------- BUTTON ----------- */
+
+#submit input[type="submit"] {
+    background-color: #4bcaff;
+    padding: 20px 160px;
+    color: white;
+    font-weight: 600;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    border:0;
+    margin:0;
+    cursor: pointer;
+}
+
+#submit input[type="submit"]:hover {
+    background-color: white;
+    color: #4bcaff;
+}
+
+/* ----------------------------- */
+
+.flex
+{display: flex;
+justify-content: space-between;
+}
+
+.flex .img
+{
+   width: 22%; 
+   text-align: center;
+   overflow: hidden;
+   padding-top: 15px;
+   position: relative;
+   overflow: hidden;
+}
+
+.flex .img img {
+    width: 100%;
+    height: auto;
+}
+
+.flex .img .cache {
+  position: absolute;
+  top: 300px;
+  left: 0;
+  width: 100%;
+  height: 93%;
+  background: rgba(0,0,0,.8);
+  color: white;
+  font-size: 24px;
+  text-align: center;
+  font-weight: bold;
+  line-height: 271px;
+}
+
+.flex .img:hover .cache{
+  top:15px;
+  cursor: pointer;
+}
+.pt-barnav
+{display: flex;
+
+  }
+
+
+.pt-barnav a {
+    color:black;
+
+}
+
+.pt-barnav a:hover {
+  color:#4bcaff;
+}
+
+.pt-barnav h3{
+    width: 30%;
+
+}
+
+.pt-barnav nav  {
+  width: 70%;
+}
+
+.pt-barnav ul{
+  justify-content: flex-end;
+}
+
+/* JUST DEFAULT SECTION */
+
+.b-gris{
+	background-color: #515f67;
+	padding: 60px 0;
+}
+
+#features .content{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+#features .content div:first-child{
+	margin-right: 10px;
+}
+
+#features .content div:last-child{
+	margin-left: 10px;
+}
+
+video{
+	width: 100%;
+	height: 100%;
+}
+
+#features h3{
+	color: white;
+}
+
+#features p{
+	color: white;
+	padding-bottom: 10px;
+}
+
+.bouton{
+	display: inline-block;
+	margin-top: 20px;
+	text-align: center;
+	font-weight: 800;
+	font-size: 12px;
+	color: #353f47;
+	border: 2px solid #353f47;
+	padding : 5px 40px;
+}
+
+.bouton:hover{
+	display: inline-block;
+	margin-top: 20px;
+	padding : 5px 40px;
+	text-align: center;
+	font-weight: 800;
+	font-size: 12px;
+	color: #4bcaff;
+	border: 2px solid white;
+	background-color: white;
+}
+
+
+/* TESTIMONIALS */
+
+/* ATTENTION B-BLANC EN COMMUN AVEC NATALIA */
+.b-blanc{
+	background-color: white;
+	padding: 60px 0;
+	color: #353f47;
+}
+/* FIN ATTENTION */
+
+#testimonials>.content{
+	display: flex;
+	flex-flow: row wrap;
+}
+
+#testimonials h3{
+	flex: 1 90%;
+}
+
+#testimonials .icon{
+	flex: 10%;
+	font-size: 18px;
+	text-align: right;
+}
+
+blockquote{
+	margin: 0;
+	padding-right: 20px;
+}
+
+#author{
+	color: #4bcaff;
+	font-weight: 600;
+	margin-top: 20px;
+}
+
+
+/* FOOTER */
+footer{
+	background-color: #353f47;
+	padding: 30px 0;
+	width: 100%;
+}
+
+footer .content{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+footer nav li{
+	border-right: 1px solid #515f67;
+	margin-right: 10px;
+}
+
+footer nav li:last-child{
+	border: none;
+	margin-right: 0;
+}
+
+footer nav li a{
+	color: #515f67;
+	font-weight: 600;
+	padding-left: 0;
+	padding-right: 10px;
+}
+
+footer nav li a:hover{
+	color: white;
+	font-weight: 600;
+	padding-left: 0;
+	padding-right: 10px;
+}
+
+#copy{
+	color: #515f67;
+	font-weight: 600;
+	font-size: 12px;
+}

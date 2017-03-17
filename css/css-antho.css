@@ -1,0 +1,181 @@
+/* ------------------------------ */
+body{
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+    background-color: #3b454e;
+}
+
+.content{
+	width: 1200px;
+    max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.line-b {
+    border-bottom: 2px solid white;
+}
+
+.line-g {
+    border-bottom: 2px solid #515f67;
+}
+
+nav>ul{
+	flex: 1 50%;
+	display: flex;
+	flex: row wrap;
+	justify-content: center;
+	align-items: center;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+
+
+	a{
+		text-decoration: none;
+		color: white;
+		padding: 8px 20px;
+		font-size: 0.8em;
+	}
+
+	p{
+		margin: 0;
+	}
+
+/* A AJOUTER */
+
+#logo > p {
+    font-weight:700; /* Graisse logo */
+}
+
+#b-nav > .content > nav > ul > li > a:hover {
+    color: #4bcaff;
+}
+
+.active:hover {
+    background-color: white;
+    border:0;
+    border: 2px solid white;
+}
+/* --------- SERVICES ---------- */
+
+.b-bleu {
+    background-color: #4bcaff;
+    padding: 60px 0px;
+    color: white;
+}
+
+#services h3 {
+    flex: 1 100%;
+}
+
+.b-bleu > .content {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.b-bleu > .content > .flex {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+#services > .content > .flex > div {
+    width: 23%;
+    height: 100%;
+}
+
+#services > .content > .flex > div > p {
+    font-size: 14px;
+    line-height: 1.5em;
+}
+
+h4 {
+    margin: 10px 0px;
+    font-size: 1.2em;
+}
+
+i.coffee {
+    background: url(../images/img-sprite.png)no-repeat -3px -7px;
+    width: 50px;
+    height: 60px;
+    display: inline-block;
+}
+
+i.instant {
+    background: url(../images/img-sprite.png)no-repeat -75px -7px;
+    width: 50px;
+    height: 60px;
+    display: inline-block;
+}
+
+i.serious {
+    background: url(../images/img-sprite.png)no-repeat -158px -7px;
+    width: 50px;
+    height: 60px;
+    display: inline-block;
+}
+
+i.frame {
+    background: url(../images/img-sprite.png)no-repeat -245px -7px;
+    width: 50px;
+    height: 60px;
+    display: inline-block;
+}
+
+/* ----------------------------- */
+
+/* ---------- TWITTER ---------- */
+
+ #twitter h3 {
+    width: 90%;
+}
+
+#twitter > .content > .icon > i {
+    width:10%;
+    font-size: 1.8em;
+}
+
+#twitter > .content > p {
+    flex: 1 100%;
+    font-weight:300;
+    font-size: 1.2em;
+}
+
+#twitter > .content > p > a {
+    flex: 1 100%;
+    font-weight:600;
+    margin:5px 0px 0px 0px;
+    padding:0;
+    font-size: 0.9em;
+}
+
+/* ----------------------------- */
+
+/* ---------- BUTTON ----------- */
+
+#submit input[type="submit"] {
+    background-color: #4bcaff;
+    padding: 20px 160px;
+    color: white;
+    font-weight: 600;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    border:0;
+    margin:0;
+    cursor: pointer;
+}
+
+#submit input[type="submit"]:hover {
+    background-color: white;
+    color: #4bcaff;
+}
+
+/* ----------------------------- */
+

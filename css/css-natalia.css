@@ -1,0 +1,67 @@
+.flex
+{display: flex;
+justify-content: space-between;
+}
+
+.flex .img
+{
+   width: 22%; 
+   text-align: center;
+   overflow: hidden;
+   padding-top: 15px;
+   position: relative;
+   overflow: hidden;
+}
+
+.flex .img img {
+    width: 100%;
+    height: auto;
+}
+
+.flex .img .cache {
+  position: absolute;
+  top: 300px;
+  left: 0;
+  width: 100%;
+  height: 93%;
+  background: rgba(0,0,0,.8);
+  color: white;
+  font-size: 24px;
+  text-align: center;
+  font-weight: bold;
+  line-height: 271px;
+}
+
+.flex .img:hover .cache{
+  top:15px;
+  cursor: pointer;
+}
+.pt-barnav
+{display: flex;
+
+  }
+
+
+.pt-barnav a {
+    color:black;
+
+}
+
+.pt-barnav a:hover {
+  color:#4bcaff;
+}
+
+.pt-barnav h3{
+    width: 30%;
+
+}
+
+.pt-barnav nav  {
+  width: 70%;
+}
+
+.pt-barnav ul{
+  justify-content: flex-end;
+}
+
+
